@@ -1,11 +1,23 @@
 body {
     margin: 0;
+    background-color:azure;
+    font-size: 1.2em;
+    font-family:Calibri, sans-serif;
+    
+    
+}
+h4 {
+    
+}
+.alg{
+    text-align: center;
+    border-style: solid;
     
 }
 .main {
     margin-left: 25%;
     padding:1px 16px;
-    height:1000px;
+    height:700px;
 }
 .nav {
     list-style-type: none;
@@ -16,6 +28,12 @@ body {
     position: fixed;
     height: 100%;
     overflow: auto;
+}
+h1 {
+    background-color: cornflowerblue;
+        padding-bottom: 15px;
+    
+    
 }
 
 li a {
@@ -33,4 +51,19 @@ li a.active {
 li a:hover:not(.active) {
     background-color: #555;
     color: white;
+}
+#rc {
+    background-color: chocolate;
+    display: block;
+    height:auto;
+    overflow: auto;
+    
+}
+img {
+    float:right;
+    padding:0px 10px px px;
+}
+.next {
+    background-color: darkcyan;
+    overflow: auto;
 }
