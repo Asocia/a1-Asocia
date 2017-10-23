@@ -1,69 +1,130 @@
 body {
     margin: 0;
-    background-color:azure;
+    background-color: azure;
     font-size: 1.2em;
-    font-family:Calibri, sans-serif;
-    
-    
+    font-family: Calibri, sans-serif;
+    color: darkslategrey;
+
 }
-h4 {
-    
-}
-.alg{
+
+table {
     text-align: center;
-    border-style: solid;
-    
+    margin: 10px;
+    padding: 30px;
 }
+
+h4 {}
+
+.alg {
+    text-align: left;
+
+    font-size: 1.2em;
+    border-left: 6px solid blue;
+    background-color: lightsteelblue;
+
+
+}
+
+.contact {
+    text-align: center;
+    display: inline-block;
+    border: solid black 1px;
+    margin-top: 25%;
+    margin-left: 30%;
+    padding: 20px;
+
+
+}
+
+p.alg {
+    padding-left: 10px;
+}
+
 .main {
-    margin-left: 25%;
-    padding:1px 16px;
-    height:700px;
+    margin-left: 17%;
+    padding: 1px 40px;
+    height: 700px;
 }
+
 .nav {
     list-style-type: none;
-    margin: 0;
-    padding: 0;
-    width: 25%;
-    background-color: #f1f1f1;
+    margin: ;
+    padding: 10px;
+    width: 17%;
+    background-color: #00439a;
     position: fixed;
     height: 100%;
     overflow: auto;
 }
-h1 {
-    background-color: cornflowerblue;
-        padding-bottom: 15px;
-    
-    
+
+#sp {
+    float: none;
 }
+
+.box {
+    border: solid green;
+}
+
+h1 {
+    background-color: blue;
+
+    padding: 10px;
+    margin: 10px;
+    border: px solid white;
+    color: azure;
+    display: inline-block;
+}
+
 
 li a {
     display: block;
-    color: #000;
+    color: #fff;
     padding: 8px 16px;
     text-decoration: none;
 }
 
+h4.tip {
+    background-color: darkslateblue;
+
+    padding: 5px;
+    margin: 8px;
+    border: px solid white;
+    color: azure;
+    display: inline-block;
+}
+
 li a.active {
-    background-color: #4CAF50;
+
+    background-color: #ffd500;
     color: white;
 }
 
 li a:hover:not(.active) {
-    background-color: #555;
+    padding-left: 25px;
+    background-color: #ffd500;
     color: white;
 }
+
 #rc {
     background-color: chocolate;
     display: block;
-    height:auto;
+    height: auto;
     overflow: auto;
-    
+
 }
+
+q {
+    padding-left: 10px;
+    padding-top: 10px;
+}
+
 img {
-    float:right;
-    padding:0px 10px px px;
+    float: right;
+    padding: 0px 10px px px;
 }
+
 .next {
-    background-color: darkcyan;
+    background-color: skyblue;
     overflow: auto;
+    padding-left: 15px;
 }
