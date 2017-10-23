@@ -6,6 +6,9 @@ body {
     color: darkslategrey;
 
 }
+iframe{
+
+}
 img.logo{
 position:fixed;
 top:0;
@@ -16,7 +19,9 @@ border:solid black;
 padding:5px;
 
 }
-
+table.rec{
+    border: solid black;
+}
 table {
     text-align: center;
     margin: 10px;
@@ -68,6 +73,9 @@ p.alg {
 }
 
 #sp {
+    float: none;
+}
+#sp1 {
     float: none;
 }
 
